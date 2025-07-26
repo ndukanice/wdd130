@@ -71,3 +71,31 @@ h1 {
     width: 125px;
     margin-left: 1rem;
 }
+
+section h2 {
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmedia img {
+    width: 40px;
+}
+
+section img {
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+p {
+    padding: 1rem;
+}
