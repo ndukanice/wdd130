@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description" content="Contact Us page for the White Water Rafting website project.">
+    <meta name="author" content="Emmanuel Nduka Eze">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/z-downriver.png" alt="Rafting Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="contact-content">
+            <section class="contact-info">
+                <h2>Our Location</h2>
+                <p>123 Rafting Way<br>Riverville, USA 54321</p>
+                <h2>Email Us</h2>
+                <p>contact@whitewaterrafting.com</p>
+                <h2>Call Us</h2>
+                <p>(123) 456-7890</p>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789012345!2d-111.891031!3d40.760780!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ1JzM4LjgiTiAxMTHCsDUzJzI3LjciVw!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+            <form action="review.html" method="get">
+                <h2>Send Us a Message</h2>
+                <div class="form-item">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div class="form-item">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="user_email">
+                </div>
+                <div class="form-item">
+                    <label>Purpose of Message:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="inquiry" name="purpose" value="inquiry" checked>
+                        <label for="inquiry">General Inquiry</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="user_message" rows="4" cols="50"></textarea>
+                </div>
+                <div class="form-item checkbox-group">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/happy-employee.jpg" alt="Employee Jane Doe">
+                    <figcaption>Jane Doe - Lead Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy-employee1.jpg" alt="Employee John Smith">
+                    <figcaption>John Smith - Trip Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happy-employee2.jpg" alt="Employee Sarah Lee">
+                    <figcaption>Sarah Lee - Safety Officer</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 White Water Rafting | Emmanuel Nduka Eze | <a href="images/wireframe.png">Contact Us Wireframe</a></p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+</html>
